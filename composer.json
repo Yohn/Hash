@@ -1,0 +1,25 @@
+{
+	"name": "yohns/hash",
+	"description": "A simple hashing technique for forms",
+	"require": {
+		"yohns/config": "^1.2"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Yohns\\": "Yohns/"
+		}
+	},
+	"scripts": {
+		"test": "./vendor/bin/phpunit tests"
+	},
+	"authors": [
+		{
+			"name": "Yohn",
+			"email": "john.skem9@gmail.com"
+		}
+	],
+	"require-dev": {
+		"phpunit/phpunit": "^11.4"
+	}
+}
